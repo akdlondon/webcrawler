@@ -8,7 +8,7 @@ How to build and run my solution
    with default buffer size of the console. In that case please go to Windows/Preferences/Run/Debug/Console
    and change buffer size to required size to see the entire output of the program.
 5. Run com.alok.webcrawler.WebCrawler.java which is having a main method, by providing program parameter at run      	configuration.
-6. Program parameter must be a full web url like "http://wiprodigital.com", "http://yahoo.com".
+6. Program parameter must be a full web url like "http://wiprodigital.com" or "http://yahoo.com" only one is allowed.
    error checking are not done because of time factor.
 
    

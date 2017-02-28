@@ -1,14 +1,16 @@
 How to build and run my solution
 ================================
-1. Clone github project using the url.
+1. Clone github project using the url
+		git clone https://github.com/akdlondon/webcrawler.git
 2. Import the project to eclipse IDE as maven project.
 3. Program uses java 1.8 and higher to compile and run.
-3. Run WebCrawler.java which is having a main method, by providing program parameter at run configuration.
-4. Program parameter must be a full web url like "http://wiprodigital.com", "http://yahoo.com".
-   error checkings are not done because of time factor.
 4. The program writes to console its output, if a big site is given as input then the out may not be able to fit 
    with default buffer size of the console. In that case please go to Windows/Preferences/Run/Debug/Console
    and change buffer size to required size to see the output of the program.
+5. Run com.alok.webcrawler.WebCrawler.java which is having a main method, by providing program parameter at run      	configuration.
+6. Program parameter must be a full web url like "http://wiprodigital.com", "http://yahoo.com".
+   error checkings are not done because of time factor.
+
    
    
    
